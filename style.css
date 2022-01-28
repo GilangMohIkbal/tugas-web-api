@@ -405,3 +405,31 @@
         align-items: center;
     }
     
+
+    .card .competisi-content {
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .card h5 {
+        color: white;
+        text-align: center;
+        
+    }
+    .card .competisi-content  p {
+        background-color: #707092;
+        padding: 5px 15px;
+        margin: 5px;
+        border-radius: 20px;
+        
+
+    }
