@@ -1,4 +1,10 @@
-
+$(document).ready(function () {
+    setTimeout(() => {
+      $("#loading").hide();
+      $("#main").show("slow");
+    }, 3000);
+  });
+  
 const API = 'https://api.football-data.org/v2/competitions/2021/matches';
 token = "bbfabdaa390c482796937c0851dc1938";
 const headers = {

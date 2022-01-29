@@ -29,6 +29,16 @@ p {
     rgb(202, 183, 183) 100%
   );
   color: white;
+  
+}
+
+
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .logo {
   width: 50px;
